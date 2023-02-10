@@ -1,8 +1,14 @@
+import "./App.css"
+import Landing from "./components/Landing"
 
 function App() {
   return (
-    <h1>This is the app page</h1>
+    <div className="app">
+      <Landing />
+    </div>
   )
 }
 
 export default App
+
+

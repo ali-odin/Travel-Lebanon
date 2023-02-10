@@ -1,0 +1,12 @@
+.app-bar {
+    background-color: transparent !important;
+     
+    .logo {
+        .gradient-p {
+            background: #FFFFFF;
+            background: linear-gradient(to bottom, #FFFFFF 60%, #ccc 30%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
