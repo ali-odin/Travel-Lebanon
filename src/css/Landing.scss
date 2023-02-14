@@ -44,16 +44,12 @@
         flex-direction: column;
         gap: 30px;
         left: -140px;
-        bottom: 10px;
+        bottom: 40px;
         transform: rotate(-180deg);
         
         li {
             transform: rotate(90deg);
             color: white;
-
-            &:last-child {
-                transform: translateY(100px) rotate(90deg);
-            }
 
         }
 
@@ -91,8 +87,9 @@
 
 img {
     width: 190px;
-    height: 194px;
-
+    height: 200px;
+    background-position: center;
+    background-size: cover;
     @media (max-width: 552px) {
         width: 344px;
         height: 187px;

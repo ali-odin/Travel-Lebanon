@@ -3,10 +3,10 @@ import * as React from 'react';
 import { Container, Typography } from "@mui/material";
 import img_1 from "../assets/kassem-mahfouz-mBcY97cXOTs-unsplash.jpg"
 import img_2 from "../assets/christelle-hayek-Hr75vPRGGAQ-unsplash.jpg"
-import img_3 from "../assets/paul-melki--BvBZKXwQo8-unsplash.jpg"
+import img_3 from "../assets/patricia-jekki-hDoVPWVQ5x0-unsplash.jpg"
 import img_4 from "../assets/marten-bjork-bUEWTfk3kPg-unsplash.jpg"
-import img_5 from "../assets/marten-bjork-6UucCW4iV48-unsplash.jpg"
-import img_6 from "../assets/ramy-kabalan-mF4_MHgp4ps-unsplash.jpg"
+import img_5 from "../assets/piotr-chrobot-KqEYj1VHA_o-unsplash.jpg"
+import img_6 from "../assets/rashid-khreiss-Ur0JWjVvP60-unsplash.jpg"
 
 const Gallery = () => {
 
@@ -14,26 +14,33 @@ const Gallery = () => {
         {
             id: 1,
             imgSrc: img_1,
+            title: "AL-SAWAH"
         },
         {
             id: 2,
             imgSrc: img_2,
+            title: "Lebanese Chess",
         },
         {
             id: 3,
             imgSrc: img_3,
+            title: "Lebanese Telefrique",
+            
         },
         {
             id: 4,
             imgSrc: img_4,
+            title: "Lebanese Mosques",
         },
         {
             id: 5,
             imgSrc: img_5,
+            title: "Lebanese Port",
         },
         {
             id: 6,
             imgSrc: img_6,
+            title: "Lebanese City",
         },
     ]
 
@@ -62,7 +69,7 @@ const Gallery = () => {
                     textAlign: "center"
                 }}
             >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt.
+                Gallery for a Beautiful natural landscapes in Lebanon, contains a diverse range of natural landscapes, including mountains, valleys, forests, and coastline. Some of the popular natural attractions in Lebanon include the Jeita Grotto.
             </Typography>
             <div class="container">
 
@@ -70,7 +77,7 @@ const Gallery = () => {
                     return (
                         <div className="card" key={index}>
                             <img src={item.imgSrc} />
-                            <div className="card__head">Lebanon Nature</div>
+                            <div className="card__head">{item.title}</div>
                         </div>
                     )
                 })}

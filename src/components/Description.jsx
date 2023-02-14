@@ -33,7 +33,7 @@ const Description = () => {
                         width: {md: "68%", xs: "100%"}
                     }}
                 >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris tortor.
+                    Lebanon is known for its diverse natural landscapes, including mountains, valleys, forests, and coastline. Some popular natural attractions in Lebanon include the Jeita Grotto, the Baatara Gorge waterfall, the Kadisha Valley...
                 </Typography>
                 <Button
                     className="main-btn"

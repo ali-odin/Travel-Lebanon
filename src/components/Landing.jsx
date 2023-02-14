@@ -1,16 +1,16 @@
 import "../css/Landing.css"
 import * as React from 'react';
 import Navbar from "./Navbar";
-import landing_video_img from "../assets/marten-bjork-V5jxkMKxv_0-unsplash.jpg"
+import landing_video_img from "../assets/piotr-chrobot-KqEYj1VHA_o-unsplash.jpg"
 import PlayCircleFilledIcon from '@mui/icons-material/PlayCircleFilled';
 import { Container, Typography, Button, Box } from "@mui/material";
 
 const Landing = () => {
 
     const landingCard= (
-        num="00", 
-        title="Title Here", 
-        description="Lorem ipsum dolor sit amet et amet ist ame.",
+            num="00", 
+            title="Title Here", 
+            description="Lorem ipsum dolor sit amet et amet ist ame.",
         ) => ((
         <div className="landing-card">
             <Typography>{num}</Typography>
@@ -90,17 +90,17 @@ const Landing = () => {
                         <li>Fb</li>
                         <li>In</li>
                         <li>Tw</li>
-                        <li>01</li>
                     </ul>
-                    {landingCard("01")}
-                    {landingCard("02")}
-                    {landingCard("03")}
+                    {landingCard("01", 'Raouché Rocks', " Raouché Rocks are two large rock formations jutting out into the Mediterranean Sea.")}
+                    {landingCard("02", "Raouché Rocks History", " The rocks are made of limestone and are believed to be around 200 million years old. ")}
+                    {landingCard("03", "What To Do There", " There are many restaurants, cafes, and shops in the area surrounding the rocks, making it a bustling and vibrant part of Beirut.")}
                     <PlayCircleFilledIcon className="PlayCircleFilledIcon"/>
                 </Container>
                 <Box
                     sx={{
                         position: {xs:"relative", md:"absolute"},
                         right: "0px",
+                        bottom: "0px"
                     }}
                 >
                     <img 

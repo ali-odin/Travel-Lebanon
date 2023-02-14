@@ -53,7 +53,7 @@ const Secrets = () => {
                     {text}
                 </Typography>
             </Box>
-        )
+            )
     }
 
     return ( 
@@ -128,9 +128,9 @@ const Secrets = () => {
                             flexDirection: {md: "row", xs: "column"}
                         }}
                     >
-                    {aboutCard("100+", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.")}
-                    {aboutCard("43000+", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.")}
-                    {aboutCard("30+", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et libero.")}
+                    {aboutCard("100+", "Lebanon has produced many successful individuals in various fields, including business, entertainment, sports, and politics.")}
+                    {aboutCard("43000+", "Some notable examples include Carlos Ghosn, former CEO of Nissan and Renault, Salma Hayek, actress and producer, Elie Saab, fashion designer, and Rafik Hariri, former Prime Minister of Lebanon.")}
+                    {aboutCard("30+", " Despite its challenges, Lebanon's people have shown resilience and determination in achieving success both within the country and abroad.")}
                     </Container>
                 </Container>
             </div>

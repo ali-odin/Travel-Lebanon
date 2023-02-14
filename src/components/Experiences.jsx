@@ -1,9 +1,9 @@
 import "../css/Experiences.css"
 import * as React from 'react';
 import { Container, Typography, Box } from "@mui/material";
-import img_1 from "../assets/marten-bjork-6UucCW4iV48-unsplash.jpg"
-import img_2 from "../assets/marten-bjork-bUEWTfk3kPg-unsplash.jpg"
-import img_3 from "../assets/marten-bjork-V5jxkMKxv_0-unsplash.jpg"
+import img_1 from "../assets/zheka-boychenko-otpOqdVFXFo-unsplash.jpg"
+import img_2 from "../assets/christelle-hayek-Hr75vPRGGAQ-unsplash.jpg"
+import img_3 from "../assets/roy-abi-saad-OPUCE2iGwiI-unsplash.jpg"
 import PlayCircleFilledIcon from '@mui/icons-material/PlayCircleFilled';
 
 const Experiences = () => {
@@ -88,8 +88,8 @@ const Experiences = () => {
                 <div
                     className="experience-card" 
                 >
-                    {experienceCard(img_2, "In The Country", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus.")}
-                    {experienceCard(img_3, "In The City", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in.")}
+                    {experienceCard(img_2, "In The Country", "Lebanon also has a number of talented chess players who have competed in international tournaments and won various awards and titles...")}
+                    {experienceCard(img_3, "In The City", "Lebanon is a country that is home to a number of valleys, each with its unique features and characteristics. ")}
                 </div>
             </Container>
         </div>

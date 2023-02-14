@@ -124,9 +124,9 @@ const GettingThere = () => {
                         textAlign: {md: "start", xs:"center"}
                     }}
                 >
-                {gettingThereCard('Bookings your flights', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.', false, true, img_1, "Travelling there", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt.")}
-                {gettingThereCard('Choosing your hotel', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed euismod orci dictum faucibus malesuada. Praesent sed eros tincidunt, viverra neque auctor, lobortis enim.', false, true, img_1, "Travelling there", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt.")}
-                {gettingThereCard('Planning your experiences', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus varius. ', true, true, img_1, "Travelling there", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus, eget tincidunt.")}
+                {gettingThereCard('Bookings your flights', 'Be ready to book your flights with the easiest and the most comfortable system, you will see the future with your both eyes....')}
+                {gettingThereCard('Choosing your hotel', 'Choosing your hotel depends on your taste, so we offer many kinds of hotels that u will be thankful for us after u visit it.')}
+                {gettingThereCard('Planning your experiences', 'We hope u likes what we offer and tell us about ur beatiful experiences and about what u enjoyed in this world of magic...', true, true, img_1, "Travelling there", "Lebanon is known for its diverse natural landscapes, including mountains, valleys, forests, and coastline.")}
                 </Container>
             </Container>
         </div>

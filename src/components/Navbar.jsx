@@ -18,7 +18,7 @@ import ForestIcon from '@mui/icons-material/Forest';
 import SearchIcon from '@mui/icons-material/Search';
 
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Destinations', 'Experiences', 'About', 'Gallery'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const Navbar = () => {
@@ -122,6 +122,7 @@ const Navbar = () => {
               </div>
               <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                 {pages.map((page) => (
+                  <a href={page}>
                   <Button
                     key={page}
                     onClick={handleCloseNavMenu}
@@ -129,6 +130,7 @@ const Navbar = () => {
                   >
                     {page}
                   </Button>
+                  </a>
                 ))}
               </Box>
               <Search>
@@ -171,7 +173,11 @@ const Navbar = () => {
                 >
                   {pages.map((page) => (
                     <MenuItem key={page} onClick={handleCloseNavMenu}>
-                      <Typography textAlign="center">{page}</Typography>
+                      <a href={"/" + page} >
+                      <Typography textAlign="center">
+                        {page}
+                      </Typography>
+                      </a>
                     </MenuItem>
                   ))}
                 </Menu>

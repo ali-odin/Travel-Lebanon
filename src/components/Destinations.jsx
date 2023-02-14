@@ -1,8 +1,8 @@
 import "../css/Destinations.css"
 import * as React from 'react';
 import { Box, Container, Typography, Button } from "@mui/material";
-import first_img from "../assets/marten-bjork-bUEWTfk3kPg-unsplash.jpg"
-import second_img from "../assets/marten-bjork-6UucCW4iV48-unsplash.jpg"
+import first_img from "../assets/kassem-mahfouz-mBcY97cXOTs-unsplash.jpg"
+import second_img from "../assets/marten-bjork-bUEWTfk3kPg-unsplash.jpg"
 
 const Destinations = () => {
 
@@ -185,8 +185,8 @@ const Destinations = () => {
         <div className="destinations">
             <div className="overlay">
             </div>
-            {Content(first_img, "The walkways of Indonesia spellbind", "the blue coast and rocky shoreline speckled with sandy pockets, white-coated coniferous mountains, lush green valleys and cascades pooling into cool rivers and ponds", true)}
-            {Content(second_img, "The walkways of Indonesia spellbind", "the blue coast and rocky shoreline speckled with sandy pockets, white-coated coniferous mountains, lush green valleys and cascades pooling into cool rivers and ponds", false)}
+            {Content(first_img, '"AL SAWAH"', "Lebanon is a mountainous country with a range of mountains that runs parallel to the Mediterranean coast, known as the Lebanon Mountains. These mountains are part of the larger mountain range known as the Levant, which also includes the Anti-Lebanon Mountains", true)}
+            {Content(second_img, "Discover the Hidden Gems: Mosques of Lebanon", "Lebanese mosques often incorporate elements of traditional Islamic architectural styles, such as domes, minarets, and arches. Some mosques may also feature intricate geometric patterns and calligraphy.", false)}
         </div>
      );
 }

@@ -38,15 +38,12 @@
   flex-direction: column;
   gap: 30px;
   left: -140px;
-  bottom: 10px;
+  bottom: 40px;
   transform: rotate(-180deg);
 }
 .landing-cards ul li {
   transform: rotate(90deg);
   color: white;
-}
-.landing-cards ul li:last-child {
-  transform: translateY(100px) rotate(90deg);
 }
 .landing-cards .landing-card {
   display: flex;
@@ -77,7 +74,9 @@
 
 img {
   width: 190px;
-  height: 194px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
 }
 @media (max-width: 552px) {
   img {
