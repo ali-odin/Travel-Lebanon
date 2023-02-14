@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 :root {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -7,8 +13,6 @@
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -19,8 +23,16 @@ a {
 .main-btn {
   background-color: var(--main-red) !important;
   color: white !important;
-  padding: 16px 24px !important;
-  font-size: 14px !important;
+  padding: 15px 0px !important;
+  font-size: 12px !important;
   font-family: "Roboto", sans-serif !important;
   border-radius: 32px !important;
+  width: 180px;
+}
+
+.logo .gradient-p {
+  background: #FFFFFF;
+  background: linear-gradient(to bottom, #FFFFFF 60%, #ccc 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,63 @@
+.experiences {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 100px;
+  flex-direction: column;
+  background-image: url("../assets/marten-bjork-V5jxkMKxv_0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.experiences .overlay {
+  position: absolute;
+  background-color: #010C22;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+.experiences .img_1_box {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+@media (max-width: 552px) {
+  .experiences .img_1_box {
+    height: 300px;
+  }
+}
+.experiences .img_1_box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.experiences .experience-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  text-align: start;
+  gap: 50px;
+}
+@media (max-width: 552px) {
+  .experiences .experience-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.experiences .experience-card img {
+  width: 200px;
+  height: 180px;
+  border-radius: 5px;
+}
+@media (max-width: 552px) {
+  .experiences .experience-card img {
+    width: 100%;
+    height: 250px;
+  }
+}/*# sourceMappingURL=Experiences.css.map */

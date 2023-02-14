@@ -1,0 +1,69 @@
+.getting-there {
+    background: #DCE8F2;    
+    padding: 100px 0px;
+
+    .getting-there-card-container {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 2px;
+            left: -50px;
+            opacity: .3;
+            background-color: var(--subheader-text-color);
+            @media (max-width: 991px) {
+                display: none;
+            }
+        }
+
+        .getting-there-box {
+            position: relative;
+
+            &:nth-child(2)::before {
+                content: "2";
+            }
+            &:nth-child(3)::before {
+                content: "3";
+            }
+
+            &::before {
+                content: "1";
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                left: -94px;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: var(--main-red);
+                color: white;
+                @media (max-width: 991px) {
+                    font-size: 30px;
+                    width: 60px;
+                    height: 60px;
+                    top: -100px;
+                    left: 120px;
+                }
+            }
+        }
+
+        .decription-card {
+            img {
+                width: 200px;
+                height: 150px;
+                border-radius: 6px;
+            }
+        }
+
+        
+    }
+    .card-description {
+        max-width: 800px;
+        @media (max-width: 551px) {
+            max-width: 250px;
+        }
+    }
+}

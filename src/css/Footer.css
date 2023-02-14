@@ -1,0 +1,58 @@
+.footer {
+  background: #010A20;
+  color: white;
+  padding: 15px 0px;
+}
+@media (max-width: 551px) {
+  .footer {
+    padding: 40px 0px;
+  }
+}
+.footer .left, .footer .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+@media (max-width: 551px) {
+  .footer .left, .footer .right {
+    flex-direction: column;
+  }
+}
+.footer .left ul, .footer .right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  flex-direction: row;
+}
+.footer .left ul li, .footer .right ul li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer .left ul li:hover, .footer .right ul li:hover {
+  color: var(--main-red);
+}
+.footer .left {
+  -moz-column-gap: 90px;
+       column-gap: 90px;
+}
+.footer .left .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 551px) {
+  .footer .left ul {
+    flex-direction: column;
+    margin: 30px 0px;
+    row-gap: 30px;
+  }
+}
+.footer .right {
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 20px;
+}/*# sourceMappingURL=Footer.css.map */
