@@ -2,9 +2,9 @@ import "../css/Footer.css"
 import * as React from 'react';
 import { Container, Typography } from "@mui/material";
 import ForestIcon from '@mui/icons-material/Forest';
-import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Footer = () => {
     return ( 
@@ -62,9 +62,9 @@ const Footer = () => {
                 <div className="right">
                     <div className="social-links">
                         <ul>
-                            <li><FacebookIcon /></li>
-                            <li><InstagramIcon /></li>
-                            <li><TwitterIcon /></li>
+                            <li><a href="https://www.linkedin.com/in/ali-allaw-488b18270/"><LinkedInIcon /></a></li>
+                            <li><a href="https://www.instagram.com/allaw.dev/"><InstagramIcon /></a></li>
+                            <li><a href="https://wa.link/14pdm2"><WhatsAppIcon /></a></li>
                         </ul>
                     </div>
                     <Typography>

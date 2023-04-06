@@ -51,6 +51,7 @@ const Experiences = () => {
         <div className="experiences">
             <div className="overlay"></div>
             <Container
+                id="Experiences"
                 maxWidth="md"
                 sx={{
                     position: "relative",

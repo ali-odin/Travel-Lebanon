@@ -1,3 +1,9 @@
 .app-bar {
   background-color: transparent !important;
+}
+.app-bar .nav-link {
+  transition: 0.3s all;
+}
+.app-bar .nav-link:hover {
+  color: red;
 }/*# sourceMappingURL=Navbar.css.map */

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;

@@ -60,6 +60,7 @@ const Secrets = () => {
         <div className="secrets"
         >
             <Container maxWidth='lg'
+                id="Secrets"
                 sx={{
                     display: "flex",
                     flexDirection: "column",

@@ -18,7 +18,7 @@ import ForestIcon from '@mui/icons-material/Forest';
 import SearchIcon from '@mui/icons-material/Search';
 
 
-const pages = ['Destinations', 'Experiences', 'About', 'Gallery'];
+const pages = ['Destinations', 'Secrets', 'Experiences', 'Gallery'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const Navbar = () => {
@@ -121,16 +121,18 @@ const Navbar = () => {
                 </Typography>
               </div>
               <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                {pages.map((page) => (
-                  <a href={page}>
+              {pages.map((page) => (
+                  <a href={`#${page}`}>
+            
                   <Button
                     key={page}
                     onClick={handleCloseNavMenu}
-                    sx={{ my: 2, color: 'white', display: 'block' }}
+                    sx={{ my: 2, color: 'white', display: 'block', transition: ".3s", "&:hover": {color: "var(--main-red)"} }}
                   >
-                    {page}
+                      {page}
                   </Button>
                   </a>
+
                 ))}
               </Box>
               <Search>
@@ -173,8 +175,11 @@ const Navbar = () => {
                 >
                   {pages.map((page) => (
                     <MenuItem key={page} onClick={handleCloseNavMenu}>
-                      <a href={"/" + page} >
-                      <Typography textAlign="center">
+                      <a href={"#" + page} >
+                        <Typography
+                          textAlign="center"
+                          className="nav-link"
+                        >
                         {page}
                       </Typography>
                       </a>

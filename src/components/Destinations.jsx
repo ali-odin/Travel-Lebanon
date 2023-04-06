@@ -12,6 +12,7 @@ const Destinations = () => {
                     ? 
                         <Container 
                             maxWidth="md"
+                            id="Destinations"
                             sx={{
                                 position: "relative",
                                 display: "flex",

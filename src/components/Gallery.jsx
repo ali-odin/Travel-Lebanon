@@ -47,6 +47,7 @@ const Gallery = () => {
     return ( 
         
         <Container
+            id="Gallery"
             sx={{
                 display: "flex",
                 justifyContent: "center",

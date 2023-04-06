@@ -28,11 +28,12 @@
        column-gap: 30px;
   flex-direction: row;
 }
-.footer .left ul li, .footer .right ul li {
+.footer .left ul li a, .footer .right ul li a {
   cursor: pointer;
   transition: 0.3s;
+  color: white;
 }
-.footer .left ul li:hover, .footer .right ul li:hover {
+.footer .left ul li a:hover, .footer .right ul li a:hover {
   color: var(--main-red);
 }
 .footer .left {

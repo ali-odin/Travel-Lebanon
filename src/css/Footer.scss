@@ -25,9 +25,10 @@
             column-gap: 30px;
             flex-direction: row;
 
-            li {
+            li a {
                 cursor: pointer;
                 transition: .3s;
+                color: white;
                 &:hover {
                     color: var(--main-red);
                 }
